@@ -1,6 +1,6 @@
 const PlayJoin = () => {
   return (
-    <div className="flex flex-col relative justify-start items-center w-full h-[1272px] mt-28 bg-[url('/img/background-1.png')] bg-cover bg-center bg-no-repeat">
+    <div className="flex flex-col relative justify-start items-center w-full h-[1272px] mt-28 bg-[url('/img/background-1.png')] bg-cover bg-center bg-no-repeat z-0">
       <p className="text-white quantico text-base text-center max-w-[534px] mx-auto -mt-16">
         Make your deset in a world of unlimited adventrue. Master skills and
         play with friends. Build new communities.
