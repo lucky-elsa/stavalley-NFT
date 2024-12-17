@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="fixed top-0 left-0 flex justify-between items-center bg-black w-full h-40 pl-20 pr-28">
+    <div className="fixed top-0 left-0 flex justify-between items-center bg-black w-full h-40 pl-20 pr-28 z-[9999]">
       <p className="flex-1 press-start text-white text-2xl uppercase">
         stavalley
       </p>
@@ -24,7 +24,7 @@ const Header = () => {
         </div>
         <button>
           <img src="/img/explore.png" alt="home" className="w-60 h-[52px]" />
-        </button> 
+        </button>
       </div>
     </div>
   );
