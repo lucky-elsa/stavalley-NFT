@@ -17,5 +17,12 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.press-start {
+  font-family: var(--font-press-start-2p);
+}
+
+.quantico {
+  font-family: var(--font-quantico);
 }
