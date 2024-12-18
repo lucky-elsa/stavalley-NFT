@@ -3,9 +3,10 @@ import CloudText from "@/components/CloudText";
 import PlayJoin from "@/components/PlayJoin";
 import CustomHouse from "@/components/CustomHouse";
 import MarqueeText from "@/components/MarqueeText";
+import BossMode from "@/components/BossMode";
 import ClaimToken from "@/components/ClaimToken";
-import Footer from "@/components/Footer";
 import JoinCommunity from "@/components/JoinCommunity";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <CustomHouse />
       <MarqueeText />
       <JoinCommunity />
+      <BossMode />
       <ClaimToken />
       <Footer />
     </div>
