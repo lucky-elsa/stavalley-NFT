@@ -10,7 +10,7 @@ const ClaimToken = () => {
           kill orders, be an active player, or simply take part in events.
         </p>
         <div className="flex flex-col justify-center items-center mt-28">
-          <img src="/img/coin.png" alt="token" className="w-56 h-56 z-10" />
+          <img src="/img/coin.gif" alt="token" className="w-56 h-56 z-10" />
           <img
             src="/img/claim-cloud.png"
             alt="token"
