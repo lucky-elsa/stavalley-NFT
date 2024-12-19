@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -13,17 +14,13 @@ const Header = () => {
       <div className="flex gap-11 items-center">
         <div className="flex gap-8 items-center">
           <a href="">
-            <img src="/img/icon.png" alt="home" className="w-[35px] h-[31px]" />
+            <Image src="/img/icon.png" alt="home" width={35} height={31} />
           </a>
           <a href="">
-            <img src="/img/discord.png" alt="home" className="w-9 h-[27px]" />
+            <Image src="/img/discord.png" alt="discord" width={36} height={27} />
           </a>
           <a href="">
-            <img
-              src="/img/twitter.png"
-              alt="home"
-              className="w-[27px] h-[27px]"
-            />
+            <Image src="/img/twitter.png" alt="twitter" width={27} height={27} />
           </a>
         </div>
         <button className="text-black text-center text-[11px] uppercase bg-[url('/img/explore-btn.png')] bg-cover bg-center bg-no-repeat w-[245px] h-[52px]">
