@@ -22,8 +22,8 @@ const Header = () => {
             />
           </a>
         </div>
-        <button>
-          <img src="/img/explore.png" alt="home" className="w-60 h-[52px]" />
+        <button className="text-black text-center text-[11px] uppercase bg-[url('/img/explore-btn.png')] bg-cover bg-center bg-no-repeat w-[245px] h-[52px]">
+          explore dimensions
         </button>
       </div>
     </div>

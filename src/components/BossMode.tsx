@@ -6,14 +6,17 @@ const BossMode = () => {
         alt="Boss Background"
         className="w-full h-[1000px] object-cover absolute top-0 left-0 z-0"
       />
-      <div className="bg-black/70 w-full h-full absolute top-0 left-0 z-10"></div>
+      <div className="bg-black/90 w-full h-full absolute top-0 left-0 z-10"></div>
       <img
         src="/img/background-4.png"
         alt="Boss Mode"
         className="w-full h-[850px] absolute bottom-0 left-0 z-20"
       />
       <div className="flex flex-col items-center justify-start w-full h-full z-30 mt-32">
-        <p className="max-w-[1190px] w-full text-white press-start text-[55px] leading-[80px] text-center uppercase">
+        <p
+          style={{ textShadow: "0px 8px black" }}
+          className="max-w-[1190px] w-full text-white press-start text-[55px] leading-[80px] text-center uppercase"
+        >
           mode: boss & assasins now in game!
         </p>
         <p className="max-w-[400px] w-full text-white text-[9px] text-center press-start mt-12">
